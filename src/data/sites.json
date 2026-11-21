@@ -1,0 +1,53 @@
+{
+  "bacc": {
+    "title": "Bangkok Art and Culture Centre",
+    "coordinates": [
+      [100.52992, 13.74655],
+      [100.53016, 13.74644],
+      [100.53056, 13.74649],
+      [100.53064, 13.74662],
+      [100.5306, 13.74691],
+      [100.53, 13.747],
+      [100.52992, 13.74655]
+    ],
+    "road": "Rama I Road",
+    "zoneQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Planing/MapServer/1/query?geometry=%7B%22rings%22%3A%5B%5B%5B100.52992%2C13.74655%5D%2C%5B100.53%2C13.747%5D%2C%5B100.5306%2C13.74691%5D%2C%5B100.53064%2C13.74662%5D%2C%5B100.53056%2C13.74649%5D%2C%5B100.53016%2C13.74644%5D%2C%5B100.52992%2C13.74655%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPolygon&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=%2A&returnGeometry=true&f=geojson&geometryPrecision=6",
+    "buildingQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Basemap_2564/MapServer/3/query?geometry=100.5289%2C13.7455%2C100.5319%2C13.7479&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&where=1%3D1&outFields=%2A&returnGeometry=true&geometryPrecision=7&f=geojson",
+    "roadQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Basemap_2564/MapServer/9/query?geometry=100.5289%2C13.7455%2C100.5319%2C13.7479&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&where=1%3D1&outFields=%2A&returnGeometry=true&geometryPrecision=7&f=geojson"
+  },
+  "siam-discovery": {
+    "title": "Siam Discovery",
+    "coordinates": [
+      [100.5310278, 13.7468],
+      [100.531353, 13.7463303],
+      [100.5318279, 13.7462455],
+      [100.5319707, 13.7467004],
+      [100.5317566, 13.7469969],
+      [100.5310831, 13.7471138],
+      [100.5310278, 13.7468]
+    ],
+    "road": "Rama I Road",
+    "zoneQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Planing/MapServer/1/query?where=1%3D1&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&f=geojson&geometryPrecision=8&geometryType=esriGeometryPolygon&geometry=%7B%22rings%22%3A%5B%5B%5B100.5310278%2C13.7468%5D%2C%5B100.5310831%2C13.7471138%5D%2C%5B100.5317566%2C13.7469969%5D%2C%5B100.5319707%2C13.7467004%5D%2C%5B100.5318279%2C13.7462455%5D%2C%5B100.531353%2C13.7463303%5D%2C%5B100.5310278%2C13.7468%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&outFields=%2A&returnGeometry=true",
+    "buildingQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Basemap_2564/MapServer/3/query?where=1%3D1&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&f=geojson&geometryPrecision=8&geometryType=esriGeometryEnvelope&geometry=100.5300278%2C13.7452455%2C100.5329707%2C13.7481138&outFields=OBJECTID%2CBL_HEIGHT%2CBL_NSTOREY%2CBL_NAME_T%2CBL_NAME_E&returnGeometry=true",
+    "roadQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Basemap_2564/MapServer/9/query?where=1%3D1&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&f=geojson&geometryPrecision=8&geometryType=esriGeometryEnvelope&geometry=100.5300278%2C13.7452455%2C100.5329707%2C13.7481138&outFields=OBJECTID%2CROAD_NAME_T%2CROAD_NAME_E%2CRC_LANE%2CRC_RWIDTH%2CRC_SWIDTH%2CRC_TWIDTH&returnGeometry=true"
+  },
+  "silom-complex": {
+    "title": "Silom Complex",
+    "coordinates": [
+      [100.5354793, 13.7286576],
+      [100.5350067, 13.7286064],
+      [100.5345058, 13.7284233],
+      [100.5346852, 13.7279599],
+      [100.5349271, 13.7276375],
+      [100.535645, 13.7279],
+      [100.535714, 13.7284552],
+      [100.5357055, 13.7285241],
+      [100.53562, 13.7286142],
+      [100.5354793, 13.7286576]
+    ],
+    "road": "Si Lom Road",
+    "zoneQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Planing/MapServer/1/query?where=1%3D1&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&f=geojson&geometryPrecision=8&geometryType=esriGeometryPolygon&geometry=%7B%22rings%22%3A%5B%5B%5B100.5354793%2C13.7286576%5D%2C%5B100.53562%2C13.7286142%5D%2C%5B100.5357055%2C13.7285241%5D%2C%5B100.535714%2C13.7284552%5D%2C%5B100.535645%2C13.7279%5D%2C%5B100.5349271%2C13.7276375%5D%2C%5B100.5346852%2C13.7279599%5D%2C%5B100.5345058%2C13.7284233%5D%2C%5B100.5350067%2C13.7286064%5D%2C%5B100.5354793%2C13.7286576%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&outFields=%2A&returnGeometry=true",
+    "buildingQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Basemap_2564/MapServer/3/query?where=1%3D1&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&f=geojson&geometryPrecision=8&geometryType=esriGeometryEnvelope&geometry=100.5335058%2C13.7266375%2C100.5367140%2C13.7296576&outFields=OBJECTID%2CBL_HEIGHT%2CBL_NSTOREY%2CBL_NAME_T%2CBL_NAME_E&returnGeometry=true",
+    "roadQuery": "https://cpudgiapp.bangkok.go.th/arcgis/rest/services/GI_Platform/BMAGI_Basemap_2564/MapServer/9/query?where=1%3D1&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&f=geojson&geometryPrecision=8&geometryType=esriGeometryEnvelope&geometry=100.5335058%2C13.7266375%2C100.5367140%2C13.7296576&outFields=OBJECTID%2CROAD_NAME_T%2CROAD_NAME_E%2CRC_LANE%2CRC_RWIDTH%2CRC_SWIDTH%2CRC_TWIDTH&returnGeometry=true"
+  }
+}
